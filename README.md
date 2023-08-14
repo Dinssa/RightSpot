@@ -10,7 +10,7 @@ This website is a full stack app built with the Python based Django web framewor
 - location_services: Provides an internal API layer for using various external APIs for location data, including Google Maps and What3Words. 
 - data: Provides another internal API layer to retrieve ONS data for a given district. This data was collected and processed in Python using a Jupyter notebook.
 
-# Live Peview
+# Live Preview
 <p align="center">
 Check out this site deployed on <a href="https://fly.io/">Fly.io</a>
 <br>
