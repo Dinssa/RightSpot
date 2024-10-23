@@ -85,19 +85,19 @@ The ERD consists of 5 models:
 
 On the home page, users can easily search for their desired location by entering either a full or partial address, with autocomplete suggestions, or a three-word address based on the what3words system. What3words is a system that gives every 3m x 3m square on the planet a unique name consisting of three words, which can be useful in countries where formal address systems are not available.
 
-[![Individual location page](https://onedrive.live.com/embed?resid=3AAE4294F4C93984%216555&authkey=%21AC6kOzZ1VxR_MLw&width=900)](#)  
+[![Individual location page](https://onedrive.live.com/embed?resid=3AAE4294F4C93984%216555&authkey=%21AC6kOzZ1VxR_MLw&width=700)](#)  
 
 Once a valid location is entered, our site shows relevant economic statistics and information for that place. We have summarised some of the data into key indicators that users may find helpful, and we also provide access to all the data for those who want to explore them further. If logged in, users can save a location they’d like to view later or add to a project.
 
-[![Saved locations page](https://onedrive.live.com/embed?resid=3AAE4294F4C93984%216558&authkey=%21AF8k7g7dD6u0KaA&width=900)](#)  
+[![Saved locations page](https://onedrive.live.com/embed?resid=3AAE4294F4C93984%216558&authkey=%21AF8k7g7dD6u0KaA&width=700)](#)  
 
 Users can easily access their saved locations from a dedicated page, but they must be logged in.
 
-[![Projects page](https://onedrive.live.com/embed?resid=3AAE4294F4C93984%216556&authkey=%21ACFF8CokwfXbb1w&width=900)](#)  
+[![Projects page](https://onedrive.live.com/embed?resid=3AAE4294F4C93984%216556&authkey=%21ACFF8CokwfXbb1w&width=700)](#)  
 
 The app allows users to create projects and save different locations under each project. This helps users to compare and evaluate various locations for a specific purpose. For example, a user who wants to open a cafe in London can save several potential locations across the city and decide which one is the best.
 
-[![Individual project page](https://onedrive.live.com/embed?resid=3AAE4294F4C93984%216557&authkey=%21AP_QMEcMjPS4hLU&width=900)](#)  
+[![Individual project page](https://onedrive.live.com/embed?resid=3AAE4294F4C93984%216557&authkey=%21AP_QMEcMjPS4hLU&width=700)](#)  
 
 On each project page, users can see all the saved locations on a map, write notes related to the project, and select two locations to compare on a separate page.
 
