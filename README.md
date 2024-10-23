@@ -71,7 +71,7 @@ Other Requirements:
 
 # Planning
 ## Entity Relationship Diagram
-[![ERD](https://onedrive.live.com/embed?resid=3AAE4294F4C93984%216553&authkey=%21AALR6OvkPyaDFfc&width=900)](#)  
+[![ERD](https://onedrive.live.com/embed?resid=3AAE4294F4C93984%216553&authkey=%21AALR6OvkPyaDFfc&width=700)](#)  
 
 The ERD consists of 5 models:
 - User
@@ -81,7 +81,7 @@ The ERD consists of 5 models:
 - Static Data
 
 ## Mockups
-[![Home page](https://onedrive.live.com/embed?resid=3AAE4294F4C93984%216554&authkey=%21AM0wLcM_byIUuVk&width=900)](#)  
+[![Home page](https://onedrive.live.com/embed?resid=3AAE4294F4C93984%216554&authkey=%21AM0wLcM_byIUuVk&width=700)](#)  
 
 On the home page, users can easily search for their desired location by entering either a full or partial address, with autocomplete suggestions, or a three-word address based on the what3words system. What3words is a system that gives every 3m x 3m square on the planet a unique name consisting of three words, which can be useful in countries where formal address systems are not available.
 
