@@ -10,12 +10,14 @@ This website is a full stack app built with the Python based Django web framewor
 - location_services: Provides an internal API layer for using various external APIs for location data, including Google Maps and What3Words. 
 - data: Provides another internal API layer to retrieve ONS data for a given district. This data was collected and processed in Python using a Jupyter notebook.
 
-# Live Preview
+# Archived
 <p align="center">
-Check out this site deployed on <a href="https://fly.io/">Fly.io</a>
-<br>
-  <a href="https://rightspot.fly.dev/" target="_blank"><strong>https://rightspot.fly.dev/</strong></a>
+<strong>This repository is archived and is no longer maintained.</strong>
 </p>
+
+This is my copy of RightSpot, a team project Andy and I built in June 2023 as our third project for the General Assembly Software Engineering Immersive. The code is now over three years old and is kept here as a record of my early work.
+
+The live preview link has been removed. The screenshots below show how the site looked.
 
 # Getting Started
 ## Prerequisites
@@ -71,7 +73,7 @@ Other Requirements:
 
 # Planning
 ## Entity Relationship Diagram
-[![ERD](https://onedrive.live.com/embed?resid=3AAE4294F4C93984%216553&authkey=%21AALR6OvkPyaDFfc&width=700)](#)  
+![ERD](docs/images/erd.png)  
 
 The ERD consists of 5 models:
 - User
@@ -81,23 +83,23 @@ The ERD consists of 5 models:
 - Static Data
 
 ## Mockups
-[![Home page](https://onedrive.live.com/embed?resid=3AAE4294F4C93984%216554&authkey=%21AM0wLcM_byIUuVk&width=700)](#)  
+![Home page](docs/images/home-page.png)  
 
 On the home page, users can easily search for their desired location by entering either a full or partial address, with autocomplete suggestions, or a three-word address based on the what3words system. What3words is a system that gives every 3m x 3m square on the planet a unique name consisting of three words, which can be useful in countries where formal address systems are not available.
 
-[![Individual location page](https://onedrive.live.com/embed?resid=3AAE4294F4C93984%216555&authkey=%21AC6kOzZ1VxR_MLw&width=700)](#)  
+![Individual location page](docs/images/individual-location-page.png)  
 
 Once a valid location is entered, our site shows relevant economic statistics and information for that place. We have summarised some of the data into key indicators that users may find helpful, and we also provide access to all the data for those who want to explore them further. If logged in, users can save a location they’d like to view later or add to a project.
 
-[![Saved locations page](https://onedrive.live.com/embed?resid=3AAE4294F4C93984%216558&authkey=%21AF8k7g7dD6u0KaA&width=700)](#)  
+![Saved locations page](docs/images/saved-locations-page.png)  
 
 Users can easily access their saved locations from a dedicated page, but they must be logged in.
 
-[![Projects page](https://onedrive.live.com/embed?resid=3AAE4294F4C93984%216556&authkey=%21ACFF8CokwfXbb1w&width=700)](#)  
+![Projects page](docs/images/projects-page.png)  
 
 The app allows users to create projects and save different locations under each project. This helps users to compare and evaluate various locations for a specific purpose. For example, a user who wants to open a cafe in London can save several potential locations across the city and decide which one is the best.
 
-[![Individual project page](https://onedrive.live.com/embed?resid=3AAE4294F4C93984%216557&authkey=%21AP_QMEcMjPS4hLU&width=700)](#)  
+![Individual project page](docs/images/individual-project-page.png)  
 
 On each project page, users can see all the saved locations on a map, write notes related to the project, and select two locations to compare on a separate page.
 
@@ -226,8 +228,8 @@ For all location related api I’ve created the location_services app with inter
 
 To make our internal api more understandable and maintainable, I have written swagger documentation for each endpoint. This document explains how the geocoding endpoint works, which can be useful for me, my partner, and any future developers who want to work on our code:
 
-[![Example swagger documentation](https://onedrive.live.com/embed?resid=3AAE4294F4C93984%216559&authkey=%21AGoefRLZ6BmPAsM&width=700)](#)  
-You can find all internal api documentation at: https://rightspot.fly.dev/swagger/.
+![Example swagger documentation](docs/images/example-swagger-documentation.png)  
+When the server is running, the internal API documentation is served at `/swagger/`.
 
 Now with the latitude and longitude we can use them to retrieve a tally of all the nearby places of note, for example, supermarkets, schools, hotels and more using another api within the location_services app at /location_services/nearbyplaces.
 
